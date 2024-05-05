@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        const colors = ["red","green","yellow","pink","white"]
+        console.log(`Length of array is:${ colors.length}`);
+        console.log(` the colors is :${colors}`);
+        colors.push("blue")
+        console.log(`after pushing :${colors}`);
+        colors.pop()
+        console.log(`after poping :${colors}`);
+        colors.unshift("black")
+        console.log(`after unshifting :${colors}`);
+        colors.shift()
+        console.log(`after shifting :${colors}`);
+        colors.sort()
+        console.log(`after sorting :${colors}`);
+        colors.sort().reverse()
+        console.log(`after sorting reverse :${colors}`);
+        colors.splice(2,2,"purple")
+        console.log(` the colors after splicing is :${colors}`);
+
+
+
+    </script>
+    
+</body>
+</html>
